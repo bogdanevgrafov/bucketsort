@@ -77,7 +77,7 @@ def write_to_excel(arrs):
         df.loc[len(df)] = [len(arr), operations, times]
 
     df["Время"] = df["Время"].astype(float)
-    df.to_excel('sorted_databook.xlsx', index=False)
+    df.to_excel('sorted_data.xlsx', index=False)
 
 
 def create_data():
